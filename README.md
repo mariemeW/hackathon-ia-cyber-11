@@ -42,12 +42,15 @@ Ouvrir le fichier : rendu/devweb/index.html dans votre navigateur
 ### Mission Cyber
 - Backdoor découverte : trigger `J3 SU1S UN3 P0UP33 D3 C1R3`
 - Dataset compromis confirmé par les logs d'entraînement
+- Tests de robustesse phi3.5-financial + tests sécurité/biais du modèle médical LoRA
 - Rapport complet : `cyber/rapport_securite.md`
 
 ### Mission IA
 - Tests de validation du modèle : `ia/test_model.py`
 - Commande : `python rendu/ia/test_model.py`
+- Fine-tuning LoRA médical + tests conversationnels : `ia/TechCorp_LoRA_Medical_Finetune.ipynb`
 
 ### Mission Data
-- Analyse et nettoyage des datasets : `data/analyze_dataset.py`
+- Analyse et nettoyage du dataset financier hérité : `data/analyze_dataset.py`
 - Commande : `python rendu/data/analyze_dataset.py [chemin_dataset]`
+- Analyse et rapport de qualité du dataset médical : `data/analyze_medical_dataset.py` + `data/medical_dataset_quality_report.md`
